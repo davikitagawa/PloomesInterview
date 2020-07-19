@@ -1,11 +1,8 @@
 # PloomesInterview
  Projeto Azure Functions C# com Banco Sql Server. Abaixo lista dos request e parametros disponiveis para utilzação:
  
- -- Ainda não publicado
  
  Manual de utilização API InterviewPloomes
-
-Url Base:  -- Ainda não publicado
 
 Cliente:
 
