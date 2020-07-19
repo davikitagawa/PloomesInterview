@@ -9,7 +9,7 @@ Url Base:  -- Ainda não publicado
 
 Cliente:
 
-	REQUEST[GET] Listar clientes: api/Clientes
+	REQUEST[GET] Listar clientes: ploomesinterview.azurewebsites.net/api/Clientes?code=PZR/k66gpfKkT3WTEvVpuPTOzwn3CXuWnpkqtmDg8gHay7g7uVz1Uw==
 	
 	RESPONSE:
 			[
@@ -38,7 +38,7 @@ Cliente:
 				}
 			]	
 
-	REQUEST [POST] Cadastrar clientes: api/CadastraCliente
+	REQUEST [POST] Cadastrar clientes: https://ploomesinterview.azurewebsites.net/api/CadastraColaborador?code=VBXyRmUyv65QMeTsWSF7FKh8uIVGsUQZMsSwfWAnbUYC3lIK8kqFMw==
 			Parameters 
 			{		
 				"NomeCliente" : ""
@@ -47,7 +47,7 @@ Cliente:
 	
 Colaborador:
 
-	REQUEST [GET] Listar Colaboradores: api/Colaboradores
+	REQUEST [GET] Listar Colaboradores: https://ploomesinterview.azurewebsites.net/api/Colaboradores?code=hT9nAjJ8gaIzzCqW/KgEla5HpaIZs56Equtxdv/ZqKaJeaouWmnpuA==
 	
 	RESPONSE [
 				{
@@ -65,7 +65,7 @@ Colaborador:
 				}  
 			]
 
-	REQUEST [POST] Cadastrar Colaborador: api/CadastraColaborador
+	REQUEST [POST] Cadastrar Colaborador: https://ploomesinterview.azurewebsites.net/api/CadastraColaborador?code=VBXyRmUyv65QMeTsWSF7FKh8uIVGsUQZMsSwfWAnbUYC3lIK8kqFMw==
 			Parameters
 			{
 				"NomeColaborador" : "",
