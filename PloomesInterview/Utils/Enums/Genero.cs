@@ -4,12 +4,11 @@ using System.Text;
 
 namespace PloomesInterview.Utils.Enums
 {
-    public enum RetCode
+    public enum Genero
     {
-          Sucesso = 200,
-          NaoEncontrado = 404,
-          Erro = 500
-
-
+        MASCULINO = 1,
+        FEMININO = 2,
+        OUTROS = 3,
+        PrefiroNaoInformar = 4
     }
 }

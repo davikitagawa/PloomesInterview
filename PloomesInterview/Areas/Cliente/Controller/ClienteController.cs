@@ -21,7 +21,7 @@ namespace PloomesInterview.Areas.Cliente.Controller
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req,
             ILogger log)
         {
-            log.LogInformation("C# HTTP trigger function processed a request.");
+            log.LogInformation("C# HTTP trigger function processed a request.");            
 
             List<ClienteModel> listaCliente = null;
             try
@@ -60,7 +60,7 @@ namespace PloomesInterview.Areas.Cliente.Controller
 
             if (string.IsNullOrWhiteSpace(data.NomeCliente))
             {
-                return new OkObjectResult("Nome não informado, cliente não cadastrado");
+                return new OkObjectResult("Nome não informado");
             }
 
             try

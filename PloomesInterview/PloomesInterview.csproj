@@ -17,8 +17,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Colaborador\" />
-    <Folder Include="Areas\Departamento\" />
     <Folder Include="Areas\Produto\" />
     <Folder Include="Areas\Venda\" />
   </ItemGroup>
