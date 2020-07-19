@@ -6,7 +6,7 @@
 
 Cliente:
 
-	REQUEST[GET] Listar clientes: ploomesinterview.azurewebsites.net/api/Clientes?code=PZR/k66gpfKkT3WTEvVpuPTOzwn3CXuWnpkqtmDg8gHay7g7uVz1Uw==
+	REQUEST[GET] Listar clientes: https://ploomesinterview.azurewebsites.net/api/Clientes?code=PZR/k66gpfKkT3WTEvVpuPTOzwn3CXuWnpkqtmDg8gHay7g7uVz1Uw==
 	
 	RESPONSE:
 			[
